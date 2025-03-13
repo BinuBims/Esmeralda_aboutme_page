@@ -7,6 +7,7 @@ body{
 .icon{
     display:none;
 }
+
 .main-background{
     background-color: #06d6a0;
 
@@ -203,9 +204,18 @@ img{
     header{
         flex-wrap:wrap;
     }
+
+    .icon{
+        display:contents;
+        padding-top: 50px;
+       
+    }
     header > ul{
         display:none;
     }
+
+    
+
 
     .main{
         flex-direction: column;
@@ -222,42 +232,6 @@ img{
     .main section{
         margin: 2%;
     }
-
-    .icon{
-        display:block;
-        font-size: 2em;
-        color:#fdf0d5;
-        position: absolute;
-        left: 0;
-        top: 0;
-        padding:5% 0% 0% 20%;
-        z-index: 3;
-        margin-bottom:1%
-    }
-
-    .icon:hover{
-        font-size: 2.1em;
-    }
-    .topnav.responsive{
-        display: block;
-        position: absolute;
-        z-index: 2;
-        left: 9%;
-        top: 6%;
-        margin-left: 2%;
-        margin-top: 3%;
-
-    }
-
-    .topnav img{
-        max-width: 8em;
-    }
-
-    .topnav span{
-        margin: 6% 0
-    }
-    
-
 
 }
 

@@ -12,9 +12,14 @@
 </head>
 <body>
     <div class="main-background">
+        <div class="ham-menu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a> 
+        </div>
     <header>
         
-        <img src="Capture-removebg-preview.png" alt="profile picture"/>
+        <img class="dp" src="Capture-removebg-preview.png" alt="profile picture"/>
         <div class="about-me">
             <h1>Esmeralda Quezada</h1>
             <p>Software Engineer</p>
@@ -23,7 +28,7 @@
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-envelope"></i></a>
         </div>
-        <ul>
+        <ul class="topnav" id="myTopnav">
             <li>
                 <a href="#background">
                     <img src="Log_PNG_Clipart.png" />
@@ -84,7 +89,10 @@
             </section>
         </div>
         <div class="third-col">
-            <img src="sonic.gif" alt="sonic running"/>
+            <section>
+                <img src="sonic.gif" alt="sonic running"/>
+            </section>
+            
             <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <p>You can reach me at +123 456 7898, esmeralda@gmail.com, linked@esmeralda.com, or github@esmeralda.com for any inquiries or collaboration opportunities.</p>
@@ -98,6 +106,17 @@
         
     </main>
     </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+            console.log(x);
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
     
 </body>
 </html>
