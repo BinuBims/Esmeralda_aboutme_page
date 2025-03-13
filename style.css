@@ -46,6 +46,10 @@ header i{
     padding: 0 2%;
 }
 
+a:hover{
+    font-size: 1.1em;
+}
+
 li{
     list-style: none;
     margin: 2% 0;
