@@ -37,6 +37,7 @@ header i{
 }
 
 .main{
+    margin: 0;
     background: #ffd166;
     padding: 4em 2em;
     position: relative; /* Ensure position for absolute children */
@@ -131,34 +132,34 @@ img{
 
 .background, .fun-extras, .interests, .skills, .contact{
     color:#073b4c;
-    background-image:url(background.avif);
+    background-image:url(src/background.avif);
     background-color: #de9eae;
     background-blend-mode: lighten;
 }
 
 .fun-extras{
-    background-image:url(contacts.avif);
+    background-image:url(src/contacts.avif);
     background-color: #f3acbe;
 
 }
 
 .skills{
-    background-image:url(interests.avif);
+    background-image:url(src/interests.avif);
     background-size: cover;
     
 }
 
 .interests{
-    background-image:url(skills.avif);
+    background-image:url(src/skills.avif);
   
 }
 
 .contact{
-    background-image:url(contacts.jpg)
+    background-image:url(src/contacts.jpg)
 }
 
 
-.custom-shape-divider-top-1741850489 {
+.custom-shape-divider-top-1741917952 {
     position: absolute;
     top: 0;
     left: 0;
@@ -168,14 +169,14 @@ img{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1741850489 svg {
+.custom-shape-divider-top-1741917952 svg {
     position: relative;
     display: block;
-    width: calc(300% + 1.3px);
-    height: 173px;
+    width: calc(234% + 1.3px);
+    height: 167px;
 }
 
-.custom-shape-divider-top-1741850489 .shape-fill {
+.custom-shape-divider-top-1741917952 .shape-fill {
     fill: #118ab2;
 }
 
