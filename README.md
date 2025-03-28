@@ -1,5 +1,11 @@
 ## About Me Page for Esmeralda Quezada
 
+### Her story:
+
+*Esmeralda is a software engineer who proudly embraces her Mexican heritage. To bring her personality into the design, she requested a theme inspired by Mexican culture, with blue as her signature color. 
+I incorporated various cultural backgrounds throughout the page to tell her story visually. As an accomplished marathon runner who completed a 26-mile race, it felt fitting to include a playful Sonic GIF to 
+highlight her passion for running. This "About Me" page authentically reflects Esmeralda — a proud Mexican, a dedicated engineer, and a strong athlete.*
+
 ### Key Features:
 * Used percentages, `rem`/`em`, and Flexbox to make the website responsive across all devices. (See the video below.)
 * Added a hamburger menu for mobile responsiveness.
@@ -7,12 +13,6 @@
 * Used a wooden texture image under each navigation item in the menu bar.
 
 https://github.com/user-attachments/assets/c5964e7b-4c9b-4c09-99a2-848f84336b2b
-
-### Her story:
-
-Esmeralda is a software engineer who proudly embraces her Mexican heritage. To bring her personality into the design, she requested a theme inspired by Mexican culture, with blue as her signature color. 
-I incorporated various cultural backgrounds throughout the page to tell her story visually. As an accomplished marathon runner who completed a 26-mile race, it felt fitting to include a playful Sonic GIF to 
-highlight her passion for running. This "About Me" page authentically reflects Esmeralda — a proud Mexican, a dedicated engineer, and a strong athlete.
 
 ### Push Work & Resources:
 
